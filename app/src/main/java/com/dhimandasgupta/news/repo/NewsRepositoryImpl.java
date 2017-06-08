@@ -78,7 +78,7 @@ public class NewsRepositoryImpl implements NewsRepository {
 
         /**
          * Intentionally used AsyncTask to create some delay in the response
-         * and also this do not create in memory leak as
+         * and also this do not create any memory leak as
          *
          * View Model -> Repo -> this
          *

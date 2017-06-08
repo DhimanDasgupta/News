@@ -27,7 +27,7 @@ public class SingleActivityViewModel extends ViewModel {
     }
 
     /**
-     * Load the data is already not loaded
+     * Load the data if already not loaded
      * */
     public NewsSourceLiveData loadNews(News news) {
         if (liveData == null) {
