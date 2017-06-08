@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dhimandasgupta.news.ui.activity.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/activity_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_example"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/view_pager_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_pager_example"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"/>
+</LinearLayout>
