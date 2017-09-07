@@ -20,7 +20,7 @@ import retrofit2.Retrofit;
  * */
 public class ErrorConverter {
     public static NewsFailureResponse convert(Retrofit retrofit, Response<NewsSuccessResponse> response) {
-        NewsFailureResponse newsSourceError = null;
+        NewsFailureResponse newsSourceError;
 
         try {
             Converter<ResponseBody, NewsFailureResponse> errorConverter = retrofit.responseBodyConverter(NewsFailureResponse.class, new Annotation[0]);
